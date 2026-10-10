@@ -76,5 +76,5 @@ if response.status_code == 429:
     content = response_data["choices"][0]["message"]["content"]
     return content
   except Exception as e:
-    return {"Error: {str(e)}"
+    return {"Error: {str(e)"}
             
