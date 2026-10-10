@@ -60,7 +60,7 @@ payload = {
   "model": model, 
   "max_tokens": int(max_tokens)
 }
-headers - {
+headers = {
   "Authorization": {"Bearer {api_key}",
   "Content-Type": "application/json",
   "Accept": "application/json"
