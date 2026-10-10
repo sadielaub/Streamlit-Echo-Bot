@@ -62,7 +62,7 @@ payload = {
 }
 headers - {
   "Authorization": {"Bearer {api_key}",
-  "Content-Type": "applocation/json",
+  "Content-Type": "application/json",
   "Accept": "application/json"
 }
 
