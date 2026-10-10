@@ -63,7 +63,7 @@ payload = {
 headers = {
   "Authorization": {"Bearer {api_key}",
   "Content-Type" "application/json",
-  "Accept": "application/json"
+  "Accept" "application/json"
 }
 
 #Make the API request
