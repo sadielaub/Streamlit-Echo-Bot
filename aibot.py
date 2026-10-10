@@ -70,7 +70,7 @@ headers = {
 response = requests.post(api_url, headers=headers, json=payload)
 if response.status_code == 429:
   return "You have hit the rate limit for the API. Please try again later."
-  try:
+try:
     response.raise_for_status()
     response_data = response.json()
     content = response_data["choices"][0]["message"]["content"]
