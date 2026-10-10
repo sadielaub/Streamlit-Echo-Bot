@@ -61,7 +61,7 @@ payload = {
   "max_tokens": int(max_tokens)
 }
 headers = {
-  "Authorization": {"Bearer {api_key}",
+  "Authorization": {"Bearer {mstrl_hcuCgtb7rxXDq8qnNUXVxKcTRO1o36TM_3zq9b4}",
   "Content-Type" "application/json",
   "Accept" "application/json"
 }
