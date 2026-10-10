@@ -51,7 +51,7 @@ def ai_ask(prompt, data=None, temperature=0.5, max_tokens=250, model="mistral-sm
 message = prompt
 if data is not None: 
   data_str = json.dumps(data, indent=2)
-  message += {"\n\nData to analyse:\n(data_str)"
+  message += {"\n\nData to analyse:\n{data_str"}
 
 #Prepare the API request payload
 payload = {
