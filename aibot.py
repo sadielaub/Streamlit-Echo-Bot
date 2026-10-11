@@ -49,7 +49,7 @@ def ai_ask(prompt, data=None, temperature=0.5, max_tokens=250, model="mistral-sm
 
 #Construct the message incorporating both prompt and data if provided
 message = prompt
-if data != None:
+if data_str != None:
   data_str = json.dumps(data, indent=2)
   message += {"\n\nData to analyse:\n{data_str"}
 
