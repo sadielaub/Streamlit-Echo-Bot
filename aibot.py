@@ -7,6 +7,10 @@ def response_generator():
       "Do you need help?", 
     ]
   )
+#Show the dashboard image once at the top
+with st.chat_message("assistant"):
+  st.image("TheSavedImage.png", caption= "CIT144-Demographics Data Visualization")
+#Display chat messages from history on app rerun
   for word in response.split():
     yield word + " "
     time.sleep(0.05)
