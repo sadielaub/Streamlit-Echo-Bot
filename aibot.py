@@ -74,7 +74,7 @@ try:
     response.raise_for_status()
     response_data = response.json()
     content = response_data["choices"][0]["message"]["content"]
-      return content
+  return content
 except Exception as e:
     return {"Error: {str(e)"}
             
